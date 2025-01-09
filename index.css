@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+#header, #banner, #testimony, #trademark{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header{
+    background: lightgrey;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+
+}
+#logo{
+    margin-left: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin-right: 25px;
+}
+
+#banner{
+    background: blue;
+    color: white;
+}
+#banner_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    width: 75%;
+    background-color: brown;
+}
+.info{
+    margin: 25px;
+    display: block;
+    margin-block: 3em;
+}
+
+#main_content{
+    background: lightcoral;
+    display: block;
+    text-align: center;
+}
+#content_body{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    margin: 25px;
+}
+
+#testimony{
+    background: darkslategrey;
+    color: white;
+    display: block;
+    text-align: center;
+}
+#attribution{
+    margin-left: 5em;
+}
+
+#trademark{
+    background: purple;
+    color: white;
+}
