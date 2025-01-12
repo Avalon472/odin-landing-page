@@ -1,21 +1,27 @@
 body{
     margin: 0;
+    font-family: 'Times New Roman', 'Arial Narrow', sans-serif;
+    background: linear-gradient(90deg, grey, white, grey);
 }
-#header, #banner, #testimony, #trademark{
+
+#header, #hero, #testimony, #trademark{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+
 #header{
     background: lightgrey;
     justify-content: space-between;
     position: fixed;
-    width: 100%;
+    width: 100vw;
 
 }
 #logo{
-    margin-left: 50px;
+    margin-left: 30px;
+    width: 30px;
+    height: auto;
 }
 .links{
     display: flex;
@@ -25,16 +31,17 @@ body{
     margin-right: 25px;
 }
 
-#banner{
+#hero{
     background: blue;
     color: white;
+    padding-top: 50px;
 }
-#banner_box{
+#hero_box{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0;
-    width: 75%;
+    width: 75vw;
     background-color: brown;
 }
 .info{
@@ -42,18 +49,29 @@ body{
     display: block;
     margin-block: 3em;
 }
+#display_image{
+    width: 300px;
+    height: auto;
+}
 
 #main_content{
-    background: lightcoral;
+
     display: block;
     text-align: center;
 }
 #content_body{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .content{
     margin: 25px;
+}
+.product{
+    width: 150px;
+    height: auto;
+    border: 5px solid cyan;
+    border-radius: 25px;
 }
 
 #testimony{
@@ -61,12 +79,27 @@ body{
     color: white;
     display: block;
     text-align: center;
+    padding: 150px;
 }
 #attribution{
-    margin-left: 5em;
+    padding-left: 50px;
 }
+
+#sign_up{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 100px;
+}
+
 
 #trademark{
     background: purple;
     color: white;
+}
+
+.button{
+    background: green;
+    color: white;
+    border-radius: 10px;
 }
