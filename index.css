@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+  
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
 body{
     margin: 0;
-    font-family: 'Times New Roman', 'Arial Narrow', sans-serif;
-    background: linear-gradient(90deg, grey, white, grey);
+    font-family: 'Indie Flower', 'Times New Roman', sans-serif;
+    background: #b9b0a5;
 }
 
 #header, #hero, #testimony, #trademark{
@@ -12,45 +19,40 @@ body{
 
 
 #header{
-    background: lightgrey;
+    background: #d3c6b6;
     justify-content: space-between;
     position: fixed;
     width: 100vw;
-
 }
 #logo{
     margin-left: 30px;
     width: 30px;
     height: auto;
+    padding: 5px;
 }
 .links{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
     margin-right: 25px;
 }
 
 #hero{
-    background: blue;
-    color: white;
-    padding-top: 50px;
-}
-#hero_box{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0;
-    width: 75vw;
-    background-color: brown;
+    background-color: #561c24;
+    padding: 80px 60px 20px 60px;
+    color: white;
 }
 .info{
-    margin: 25px;
+    margin: 20px;
     display: block;
     margin-block: 3em;
 }
 #display_image{
-    width: 300px;
+    width: 40vw;
     height: auto;
 }
 
@@ -66,40 +68,72 @@ body{
 }
 .content{
     margin: 25px;
+    font-size: 20px;
+    max-width: 20vw;
 }
 .product{
-    width: 150px;
-    height: auto;
-    border: 5px solid cyan;
+    width: 175px;
+    height: 175px;
+    border: 5px solid #6d2932;
     border-radius: 25px;
 }
 
 #testimony{
-    background: darkslategrey;
+    background: #6e242e;
+    font-size: 20px;
     color: white;
     display: block;
     text-align: center;
-    padding: 150px;
+    padding: 125px;
 }
 #attribution{
-    padding-left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: end;
 }
 
 #sign_up{
-    background-color: darkgoldenrod;
+    background-color: #6d2932;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
     margin: 50px 100px;
 }
 
 
 #trademark{
-    background: purple;
+    background: rgb(44, 32, 44);
     color: white;
+    padding: 10px;
 }
 
 .button{
-    background: green;
+    background: #6d2932;
     color: white;
     border-radius: 10px;
+    font-size: 15px;
+    border: 2px solid #b9b0a5;
+    min-width: 110px;
+    height: 35px;
+}
+.button:hover{
+    background: #b9b0a5;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    background: #b9b0a5;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
 }
